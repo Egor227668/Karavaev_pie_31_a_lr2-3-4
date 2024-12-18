@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../Style/style.css">
+    <script src="../scripts/script3_1.js"></script>
+    <script src="../scripts/script3_2.js"></script>
+    <script src="../scripts/script3_3.js"></script>
+    <script src="../scripts/script3_4.js"></script>
+    <title>Лабораторная работа № 3</title>
+</head>
+
+<body>
+    <div>
+        <button onclick="window.location.href='/pages/index.html'">назад</button>
+        <p>Лабораторная работа № 3</p>
+    </div>
+    <div>
+        <div class="frame">
+            <h3>Задание № 1</h3>
+            <div>Даны два целых числа: A, B. Проверить истинность высказывания: «Числа A и B имеют одинаковую четность».</div>
+            <div class="frame">
+                <div>
+                    <label>Введите первое число</label>
+                    <input type="text" id="num1">
+                </div>
+                <div>
+                    <label>Введите второе число</label>
+                    <input type="text" id="num2">
+                </div>
+            </div>
+            <div id="calc1">
+                <button onclick="chekingParity()">Вычислить:</button>
+                <div id="result1">Ответ:</div>
+            </div>
+        </div>
+        <div class="frame">
+            <h3>Задание № 2</h3>
+            <div>Даны две переменные целого типа: A и B. Если их значения не равны, то присвоить каждой переменной большее из этих значений, а если равны, то присвоить переменным нулевые значения. Вывести новые значения
+                переменных A и B.
+            </div>
+            <div class="frame">
+                <div>
+                    <label>Введите первое число</label>
+                    <input type="text" id="num3">
+                </div>
+                <div>
+                    <label>Введите второе число</label>
+                    <input type="text" id="num4">
+                </div>
+            </div>
+            <div>
+                <button onclick="comparingVariables()">Вычислить:</button>
+                <div id="result2_1">Первое число после изменений: </div>
+                <div id="result2_2">Второе число после изменений: </div>
+            </div>
+        </div>
+        <div class="frame">
+            <h3>Задание № 3</h3>
+            <img class="images" src="../images/Num3.jpg" alt="Изображение номера 3">
+            <div class="frame">
+                <div>
+                    <label>Введите x</label>
+                    <input type="text" id="x">
+                </div>
+            </div>
+            <div>
+                <button onclick="calculateSystem()">Вычислить:</button>
+                <div id="result_y">Ответ: у = </div>
+            </div>
+        </div>
+        <div class="frame">
+            <h3>Задание № 4</h3>
+            <img class="images" src="../images/Num4.jpg" alt="Изображение номера 4">
+            <div class="frame">
+                <div>
+                    <label>Введите x </label>
+                    <input type="text" id="x2">
+                </div>
+            </div>
+            <div>
+                <button onclick="calculateSystem2()">Вычислить:</button>
+                <div id="resylt_y2">Ответ: </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../Style/style.css">
+    <script src="../scripts/script4_1.js"></script>
+    <script src="../scripts/script4_2.js"></script>
+    <title>Лабораторная работа № 4</title>
+</head>
+<body>
+    <div>
+        <button onclick="window.location.href='/pages/index.html'">назад</button>
+        <p>Лабораторная работа № 4</p>
+    </div>
+    <div> 
+        <div class="frame">
+            <h3>Задание № 1</h3>
+            <div>Дан набор ненулевых целых чисел; признак его завершения — чис-ло 0. Вывести количество отрицательных нечетных чисел в наборе.</div>
+            <div class="frame">
+              <div>
+              <label>Введите набор из чисел через ", ", закончив ваш список 0</label>
+              <input type="text" id="arr">
+              </div>
+            </div>
+            <div id="calc1">
+                <button onclick="calculate()">Вычислить:</button>
+                <div id="result">Количество отрицательных нечётных чисел: </div>
+            </div>
+        </div>
+        <div class="frame">
+            <h3>Задание № 2</h3>
+            <div>Дано целое число N (> 0). Найти сумму  2 + (N + 1)2 + (N + 2)2 + . . . + (2·N )2  (целое число).</div>
+            <div class="frame">
+              <label>Введите число N > 0</label>
+              <input type="text" id="num">
+            </div>
+            <div id="calc2">
+                <button onclick="calcSum()">Вычислить:</button>
+                <div id="result_sum">Сумма: </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
